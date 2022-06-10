@@ -1,6 +1,7 @@
 import react from 'react';
 
 function Home() {
+
     return (
         <div className='flex home-background'>
             <section id='home'>
