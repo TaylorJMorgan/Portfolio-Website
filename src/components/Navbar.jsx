@@ -1,32 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
+import $ from 'jquery';
+import { NavLink, useLocation } from 'react-router-dom';
 
-function Navbar() {
+function Navbar(props) {
+
+    $(function () {
+        $("nav .nav-link").on("click", function () {
+            $("nav").find(".active").removeClass("active");
+            $(this).addClass("active");
+        });
+    });
+
     return (
-        <nav class='navbar navbar-dark sticky-top navbar-expand-lg navbar-custom p-2'>
-            <div class='container-fluid'>
-                <a class='navbar-brand' href='#home'>Taylor Morgan</a>
-                <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
-                    <span class='navbar-toggler-icon'></span>
+        <nav className='navbar navbar-dark sticky-top navbar-expand-lg navbar-custom p-0' id='navbar'>
+            <div className='container-fluid'>
+                <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
+                    <span className='navbar-toggler-icon'></span>
                 </button>
-                <div class='collapse navbar-collapse' id='navbarNav'>
-                    <ul class='navbar-nav'>
-                        <li class='nav-item'>
-                            <a class='nav-link active' aria-current='page' href='#home'>Home</a>
+                <div className='collapse navbar-collapse' id='navbarNav'>
+                    <ul className='navbar-nav mx-auto'>
+                        <li className='nav-item'>
+                            <NavLink className='nav-link' aria-current='page' to='/'>Home</NavLink>
                         </li>
-                        <li class='nav-item'>
-                            <a class='nav-link' href='#about'>About</a>
+                        <li className='nav-item'>
+                            <NavLink className='nav-link' to='/about'>About</NavLink>
                         </li>
-                        <li class='nav-item'>
-                            <a class='nav-link' href='#'>TODO</a>
+                        <li className='nav-item'>
+                            <NavLink className='nav-link' to='/projects'>Projects</NavLink>
                         </li>
-                        <li class='nav-item'>
-                            <a class='nav-link' href='#'>TODO</a>
+                        <li className='nav-item'>
+                            <NavLink className='nav-link' to='/contact'>Contact</NavLink>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        
+
+
     )
 }
 

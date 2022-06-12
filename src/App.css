@@ -32,7 +32,7 @@
     font-size: 16pt;
   }
   .start-button {
-    
+
   }
 }
 
@@ -55,4 +55,36 @@
 
 .card-subtitle {
   margin-bottom: 1rem;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.active {
+  border-bottom: solid;
+  border-color: #F24C4C;
+}
+
+/* .card-img-top {
+  max-width: 600px;
+}
+
+.card {
+  max-width: 700px;
+} */
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+
 }

@@ -1,9 +1,15 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 function Home() {
 
     return (
-        <div className='flex home-background'>
+        <motion.div
+            initial={{ y: -(window.innerHeight) }}
+            animate={{ y: 0, transition: { duration: 0.5 } }}
+            exit={{ y: window.innerHeight, transition: { duration: 0.5 } }}
+            className='home-background'>
             <section id='home'>
                 <div className='flex row home-banner align-items-center'>
                     <div className='col'>
@@ -15,18 +21,17 @@ function Home() {
                         <br />
                         a full-stack developer.
                         <br />
-                        <a href='#about'>
-                        <button className="btn btn-outline-light btn-md start-button">
-                        Let's start.
-                        </button>
-                        </a>
-                                        
-                    </div>                    
+                        <NavLink to='/about' >
+                            <button className="btn btn-outline-light btn-md start-button">
+                                Let's start.
+                            </button>
+                        </NavLink>
+                    </div>
                 </div>
             </section>
-        </div>
-        
-        
+        </motion.div>
+
+
     )
 }
 
