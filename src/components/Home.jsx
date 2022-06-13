@@ -8,27 +8,25 @@ function Home() {
         <motion.div
             initial={{ y: -(window.innerHeight) }}
             animate={{ y: 0, transition: { duration: 0.5 } }}
-            exit={{ y: window.innerHeight, transition: { duration: 0.5 } }}
-            className='home-background'>
-            <section id='home'>
-                <div className='flex row home-banner align-items-center'>
-                    <div className='col'>
-                        Hello, I'm&nbsp;
-                        <span className='highlight'>
-                            Taylor Morgan
-                        </span>
-                        ,
-                        <br />
-                        a full-stack developer.
-                        <br />
-                        <NavLink to='/about' >
-                            <button className="btn btn-outline-light btn-md start-button">
-                                Let's start.
-                            </button>
-                        </NavLink>
-                    </div>
+            exit={{ y: -(window.innerHeight), transition: { duration: 0.5 } }}
+            className='page-background-dark'>
+            <div className='flex row home-banner align-items-center'>
+                <div className='col'>
+                    Hello, I'm&nbsp;
+                    <span className='highlight'>
+                        Taylor Morgan
+                    </span>
+                    ,
+                    <br />
+                    a full-stack developer.
+                    <br />
+                    <NavLink to='/about' >
+                        <button className="btn btn-outline-light btn-md start-button">
+                            Let's start.
+                        </button>
+                    </NavLink>
                 </div>
-            </section>
+            </div>
         </motion.div>
 
 

@@ -11,9 +11,10 @@ function About() {
         <motion.div
             initial={{ y: -(window.innerHeight) }}
             animate={{ y: 0, transition: { duration: 0.5 } }}
-            exit={{ y: window.innerHeight, transition: { duration: 0.5 } }}
-            className='about-background'>
+            exit={{ y: -(window.innerHeight), transition: { duration: 0.5 } }}
+            className='page-background'>
             <section id='about'>
+                <h1 className='page-title'>ABOUT</h1>
                 <div className='row justify-content-center'>
                     <div className='d-flex col-sm-12 col-md-6 col-lg-5 align-items-stretch'>
                         <Card
