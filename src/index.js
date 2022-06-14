@@ -5,8 +5,6 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter } from 'react-router-dom';
-import $ from 'jquery';
-import Popper from '@popperjs/core';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +12,7 @@ root.render(
     <BrowserRouter>
       <App />
     </BrowserRouter>
-    
+
   </React.StrictMode>
 );
 

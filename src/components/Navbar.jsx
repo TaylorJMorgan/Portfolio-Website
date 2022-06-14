@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import $ from 'jquery';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Navbar(props) {
 
