@@ -50,6 +50,10 @@ body {
   margin-right: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 /* Page Backgrounds */
 
 .page-background-dark {
