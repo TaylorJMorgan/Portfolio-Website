@@ -140,6 +140,10 @@ body {
 
   /* Navbar */
 
+  .navbar-collapse {
+    background-color: #393E46;
+  }
+
   .navbar-custom {
     background-color: #393E46;
     height: 55px;
@@ -232,8 +236,6 @@ body {
     line-height: 90px;
     background-color: #FD2222;
   }
-
-
 
 
 

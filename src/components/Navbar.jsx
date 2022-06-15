@@ -4,6 +4,8 @@ import { NavLink } from 'react-router-dom';
 
 function Navbar(props) {
 
+
+
     $(function () {
         $("nav .nav-link").on("click", function () {
             $("nav").find(".active").removeClass("active");
