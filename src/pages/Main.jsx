@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import Home from './Home';
-import Navbar from './Navbar';
+import Navbar from '../components/Navbar';
 import About from './About';
-import Projects from './Projects';
+import Projects from '../pages/Projects';
 import Contact from './Contact';
 import { AnimatePresence } from 'framer-motion';
 

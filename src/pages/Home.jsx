@@ -13,7 +13,7 @@ function Home() {
             <div className='flex row home-banner align-items-center'>
                 <div className='col'>
                     Hello, I'm&nbsp;
-                    <span className='highlight'>
+                    <span className='highlight-animated'>
                         Taylor Morgan
                     </span>
                     ,

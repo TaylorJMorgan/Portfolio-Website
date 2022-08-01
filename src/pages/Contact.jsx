@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Footer from './Footer';
-import Socials from './Socials';
+import Footer from '../components/Footer';
+import Socials from '../components/Socials';
 import { useForm, ValidationError } from '@formspree/react';
-import ContactInner from './ContactInner';
+import ContactInner from '../components/ContactInner';
 
 
 function Contact() {

@@ -12,7 +12,7 @@ function Carousel(props) {
             </div>
             <div className='carousel-inner'>
                 <div className='carousel-item active'>
-                    <img src={props.img1} className='d-block w-100' alt='...' />
+                    <a href='https://attractech.netlify.app/'><img src={props.img1} className='d-block w-100' alt='...' /></a>
                     <div className='carousel-caption dark-div'>
                         <h5>{props.label1}</h5>
                         <p>{props.description1}</p>

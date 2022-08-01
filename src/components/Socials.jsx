@@ -16,7 +16,7 @@ function Socials() {
                     <FacebookIcon sx={{ color: 'white', fontSize: 60 }} />
                 </div>
             </a>
-            <a href='https://www.linkedin.com/in/taylor-morgan-213761223/'>
+            <a href='https://www.linkedin.com/in/taylor-morgan-dev/'>
                 <div className='social-box'>
                     <LinkedInIcon sx={{ color: 'white', fontSize: 60 }} />
                 </div>

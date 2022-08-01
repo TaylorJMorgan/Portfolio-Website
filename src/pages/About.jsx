@@ -1,8 +1,8 @@
 import React from 'react';
 import taylorBird from '../images/taylorBird.jpg';
-import Card from './Card';
+import Card from '../components/Card';
 import { motion } from 'framer-motion';
-import SkillGroup from './SkillGroup';
+import SkillGroup from '../components/SkillGroup';
 
 function About() {
 
