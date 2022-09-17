@@ -7,24 +7,24 @@ function Carousel(props) {
         <div id='projectsCarousel' className='carousel slide col-12 col-lg-10 carousel-container' data-bs-ride='false'>
             <div className='carousel-indicators'>
                 <button type='button' data-bs-target='#projectsCarousel' data-bs-slide-to='0' className='active' aria-current='true' aria-label='Slide 1'></button>
-                {/* <button type='button' data-bs-target='#projectsCarousel' data-bs-slide-to='1' aria-label='Slide 2'></button> */}
+                <button type='button' data-bs-target='#projectsCarousel' data-bs-slide-to='1' aria-label='Slide 2'></button>
                 {/* <button type='button' data-bs-target='#projectsCarousel' data-bs-slide-to='2' aria-label='Slide 3'></button> */}
             </div>
             <div className='carousel-inner'>
                 <div className='carousel-item active'>
-                    <a href='https://attractech.netlify.app/'><img src={props.img1} className='d-block w-100' alt='...' /></a>
+                    <a href={props.url1}><img src={props.img1} className='d-block w-100' alt='...' /></a>
                     <div className='carousel-caption dark-div'>
                         <h5>{props.label1}</h5>
                         <p>{props.description1}</p>
                     </div>
                 </div>
-                {/* <div className='carousel-item'> */}
-                {/* <img src={props.img2} className='d-block w-100' alt='...' /> */}
-                {/* <div className='carousel-caption dark-div d-none d-md-block'> */}
-                {/* <h5>{props.label2}</h5> */}
-                {/* <p>{props.description2}</p> */}
-                {/* </div> */}
-                {/* </div> */}
+                <div className='carousel-item'>
+                    <a href={props.url2}><img src={props.img2} className='d-block w-100' alt='...' /></a>
+                    <div className='carousel-caption dark-div d-none d-md-block'>
+                        <h5>{props.label2}</h5>
+                        <p>{props.description2}</p>
+                    </div>
+                </div>
                 {/* <div className='carousel-item'> */}
                 {/* <img src={props.img3} className='d-block w-100' alt='...' /> */}
                 {/* <div className='carousel-caption dark-div d-none d-md-block'> */}
