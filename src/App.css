@@ -16,29 +16,12 @@ body {
   }
 }
 
-/* Buttons  */
-
-.start-button {
-  margin-top: 20px;
-}
-
-/* Containers */
-
-.home-banner {
-  font-size: 32pt;
-  text-align: center;
-  color: #fff;
-  height: calc(100vh - 55px);
-  width: 100vw;
-  animation: slideIn 2s forwards;
-}
-
 .inner-page {
   height: calc(100vh - 55px - 136px);
 }
 
 .dark-div {
-  background-color: #393E46;
+  background-color: #393e46;
   border-radius: 4px;
   opacity: 0.8;
 }
@@ -59,7 +42,7 @@ body {
 .page-background-dark {
   height: calc(100vh - 55px);
   width: 100vw;
-  background-color: #393E46;
+  background-color: #393e46;
 }
 
 .page-background {
@@ -76,27 +59,12 @@ body {
   }
 }
 
-/* Text Effects */
-
-.highlight-animated {
-  color: #F24C4C;
-  transition: 0.5s;
-}
-
-.highlight-animated:hover {
-  font-size: 3.5rem;
-}
-
-.highlight {
-  color: #F24C4C;
-}
-
 .page-title {
   font-size: 3rem;
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 1rem;
-  color: #393E46;
+  color: #393e46;
   font-weight: 700;
 }
 
@@ -109,153 +77,31 @@ body {
   font-weight: 700;
 }
 
-
 /* Component Specific */
+/* Carousel */
 
-  /* Cards */
+.carousel-container {
+  width: 1200px;
+}
 
-  .card {
-    margin: 25px;
-    width: 100%;
-  }
-
-  .card-body {
-    width: 85%;
-  }
-
-  .card-subtitle {
-    margin-bottom: 1rem;
-  }
-
-  .card-container {
-    width: 500px;
-  }
-
-  /* Carousel */
-
-  .carousel-container {
-    width: 1200px;
-  }
-
-  /* .carousel {
+/* .carousel {
     margin-top: 25px;
     margin-left: 100px;
     margin-right: 100px;
   } */
 
-  /* Navbar */
+/* Contact */
 
-  .navbar-collapse {
-    background-color: #393E46;
-  }
+.contact-form {
+  text-align: center;
+  width: 500px;
+}
 
-  .navbar-custom {
-    background-color: #393E46;
-    height: 55px;
-  }
+.form-header {
+  color: #fff;
+  text-align: center;
+}
 
-  .nav-item {
-    font-size: 1.5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-
-  .active {
-    border-bottom: solid;
-    border-color: #F24C4C;
-    border-width: 4px;
-  }
-
-  /* Footer */
-
-  .footer {
-    text-align: center;
-    background-color:#393E46;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-  }
-
-  .footer-text {
-    font-size: 1rem;
-    color:#fff;
-  }
-
-  /* Contact */
-
-  .contact-form {
-    text-align: center;
-    width: 500px;
-  }
-
-  .form-header {
-    color: #fff;
-    text-align: center;
-  }
-
-  .btn-submit {
-    width: 100%;
-  }
-
-  /* Skillbar */
-
-  .outer-bar {
-    background-color: #D3D3D3;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    border-radius: 3px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-  }
-
-  .inner-bar {
-    background-color: #F24C4C;
-    border-radius: 3px;
-  }
-
-  .skill-name {
-    color: #fff;
-    width: 25%;
-    padding-right: 1rem;
-    text-align: right;
-    width: 100%;
-  }
-
-  /* Socials */
-
-  .social-box {
-    text-align: center;
-    width: 80px;
-    height: 80px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: #F24C4C;
-    border-radius: 5px;
-    line-height: 80px;
-    transition: width 0.3s, height 0.3s, line-height 0.3s, background-color 0.3s;
-  }
-
-  .social-box:hover {
-    width: 90px;
-    height: 90px;
-    line-height: 90px;
-    background-color: #FD2222;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.btn-submit {
+  width: 100%;
+}

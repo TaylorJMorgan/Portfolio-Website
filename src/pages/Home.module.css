@@ -1,0 +1,26 @@
+.button__start {
+  margin-top: 20px;
+}
+
+.highlight--animated {
+  color: #f24c4c;
+  transition: 0.5s;
+}
+
+.highlight--animated:hover {
+  font-size: 3.5rem;
+}
+
+.home-banner {
+  font-size: 32pt;
+  text-align: center;
+  color: #fff;
+  height: calc(100vh - 55px);
+  width: 100vw;
+}
+
+.page-background--dark {
+  height: calc(100vh - 55px);
+  width: 100vw;
+  background-color: #393e46;
+}
