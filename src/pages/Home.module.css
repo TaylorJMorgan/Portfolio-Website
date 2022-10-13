@@ -24,3 +24,9 @@
   width: 100vw;
   background-color: #393e46;
 }
+
+@media (max-width: 576px) {
+  .home-banner {
+    font-size: 16pt;
+  }
+}

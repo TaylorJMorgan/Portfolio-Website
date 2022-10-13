@@ -9,7 +9,7 @@ import classes from './About.module.css';
 
 const About = (props) => {
   return (
-    <MotionWrapper>
+    <MotionWrapper backgroundType='page-background'>
       <section id='about'>
         <h1 className={classes['page-title']}>ABOUT</h1>
         <div className='row justify-content-center'>

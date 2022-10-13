@@ -1,107 +1,13 @@
-/* HTML Elements */
-
-body {
+HTML Elements body {
   font-family: 'Montserrat';
   background-color: #f5f5f5;
-}
-
-/* Animations */
-
-@keyframes slideIn {
-  0% {
-    transform: translateY(-900px);
-  }
-  100% {
-    transform: translateY(0);
-  }
 }
 
 .inner-page {
   height: calc(100vh - 55px - 136px);
 }
 
-.dark-div {
-  background-color: #393e46;
-  border-radius: 4px;
-  opacity: 0.8;
-}
-
-/* Misc */
-
 .row {
   margin-left: 0;
   margin-right: 0;
-}
-
-.hidden {
-  display: none;
-}
-
-/* Page Backgrounds */
-
-.page-background-dark {
-  height: calc(100vh - 55px);
-  width: 100vw;
-  background-color: #393e46;
-}
-
-.page-background {
-  background-color: #f5f5f5;
-  height: calc(100% - 55px);
-  width: 100vw;
-}
-
-/* Responsive Elements */
-
-@media (max-width: 576px) {
-  .home-banner {
-    font-size: 16pt;
-  }
-}
-
-.page-title {
-  font-size: 3rem;
-  text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-  color: #393e46;
-  font-weight: 700;
-}
-
-.page-title-dark {
-  font-size: 3rem;
-  text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-  color: #fff;
-  font-weight: 700;
-}
-
-/* Component Specific */
-/* Carousel */
-
-.carousel-container {
-  width: 1200px;
-}
-
-/* .carousel {
-    margin-top: 25px;
-    margin-left: 100px;
-    margin-right: 100px;
-  } */
-
-/* Contact */
-
-.contact-form {
-  text-align: center;
-  width: 500px;
-}
-
-.form-header {
-  color: #fff;
-  text-align: center;
-}
-
-.btn-submit {
-  width: 100%;
 }
