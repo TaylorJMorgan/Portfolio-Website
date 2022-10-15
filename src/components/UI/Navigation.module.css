@@ -1,16 +1,20 @@
-.navbar-collapse__custom {
+.navbar-collapse--custom {
   background-color: #393e46;
 }
 
-.navbar-custom {
+.navbar--custom {
   background-color: #393e46;
   height: 55px;
 }
 
-.nav-item__custom {
-  font-size: 1.5rem;
+.nav-item--custom {
+  font-size: 1.5rem !important;
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+.navbar-toggle--custom {
+  z-index: 1;
 }
 
 .active {

@@ -1,18 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 import { Route, Routes, useLocation } from 'react-router-dom';
-import Home from './Home';
-import Navbar from '../components/Navbar';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
+import Home from '../Home/Home';
+import Navigation from '../UI/Navigation';
+import About from '../About/About';
+import Projects from '../Projects/Projects';
+import Contact from '../Contact/Contact';
 import { AnimatePresence } from 'framer-motion';
 
 const App = (props) => {
   const location = useLocation();
 
+  const [active, setActive] = useState('home');
+
   return (
     <div>
-      <Navbar />
+      <Navigation
+        active={active}
+        setActive={setActive}
+      />
       <div>
         <AnimatePresence exitBeforeEnter>
           <Routes
@@ -21,7 +27,7 @@ const App = (props) => {
           >
             <Route
               path='/'
-              element={<Home />}
+              element={<Home setActive={setActive} />}
             />
             <Route
               path='/About'

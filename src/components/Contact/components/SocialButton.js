@@ -1,3 +1,5 @@
+import React from 'react';
+
 import classes from './SocialButton.module.css';
 
 const SocialButton = (props) => {
