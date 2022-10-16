@@ -86,13 +86,14 @@ const ContactForm = (props) => {
   useEffect(() => {
     const identifier = setTimeout(() => {
       console.log('Checking form validity');
+      console.log(state);
       setFormIsValid(emailIsValid && nameIsValid && messageIsValid);
     }, 500);
 
     return () => {
       clearTimeout(identifier);
     };
-  }, [emailIsValid, nameIsValid, messageIsValid]);
+  }, [emailIsValid, nameIsValid, messageIsValid, state]);
 
   const submitHandler = (event) => {
     event.preventDefault();
