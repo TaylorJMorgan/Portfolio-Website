@@ -1,8 +1,9 @@
-import React from 'react';
-
 import { NavLink } from 'react-router-dom';
 import MotionWrapper from '../UI/MotionWrapper';
+import Button from 'react-bootstrap/Button';
 import classes from './Home.module.css';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const Home = (props) => {
   const handleClick = () => {
@@ -11,26 +12,32 @@ const Home = (props) => {
 
   return (
     <MotionWrapper backgroundType='page-background--dark'>
-      <div className={`flex row align-items-center ${classes['home-banner']}`}>
-        <div className='col'>
-          Hello, I'm&nbsp;
-          <span className={`${classes['highlight--animated']}`}>
-            Taylor Morgan
-          </span>
-          ,
-          <br />
-          a full-stack developer.
-          <br />
-          <NavLink to='/about'>
-            <button
-              className={`btn btn-outline-light btn-md ${classes['start-button']}`}
-              onClick={handleClick}
-            >
-              Let's start.
-            </button>
-          </NavLink>
-        </div>
-      </div>
+      <section
+        id='home'
+        className={`d-flex justify-content-center align-items-center ${classes['home-banner']}`}
+      >
+        <Row>
+          <Col>
+            Hello, I'm&nbsp;
+            <span className={classes['highlight--animated']}>
+              Taylor Morgan
+            </span>
+            ,
+            <br />
+            a full-stack developer.
+            <br />
+            <NavLink to='/about'>
+              <Button
+                variant='outline-light'
+                className={classes['button__start']}
+                onClick={handleClick}
+              >
+                Let's start.
+              </Button>
+            </NavLink>
+          </Col>
+        </Row>
+      </section>
     </MotionWrapper>
   );
 };

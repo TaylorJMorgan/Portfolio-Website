@@ -88,10 +88,10 @@ const ContactForm = (props) => {
   }, [nameHasError, emailHasError, messageHasError]);
 
   return (
-    <Container>
+    <Container className='justify-content-center d-flex'>
       <form
         onSubmit={submitHandler}
-        className={`mb-5 ${classes['contact-form']} w-auto`}
+        className={`mb-5 ${classes['contact-form']}`}
       >
         <div>
           <input

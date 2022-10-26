@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Carousel from 'react-bootstrap/Carousel';
 import classes from './ProjectsCarousel.module.css';
 import projects from '../data/projects';
@@ -7,8 +5,11 @@ import Container from 'react-bootstrap/Container';
 
 const ProjectsCarousel = (props) => {
   return (
-    <Container>
-      <Carousel interval={null}>
+    <Container className='d-flex justify-content-center'>
+      <Carousel
+        interval={null}
+        className={classes['carousel__container']}
+      >
         {projects.map((project) => {
           return (
             <Carousel.Item>

@@ -7,10 +7,12 @@ import classes from './Projects.module.css';
 const Projects = (props) => {
   return (
     <MotionWrapper backgroundType='page-background'>
-      <h1 className={classes['page-title']}>PROJECTS</h1>
-      <div className='m-5'>
-        <ProjectsCarousel />
-      </div>
+      <section id='projects'>
+        <h1 className={classes['page-title']}>PROJECTS</h1>
+        <div className='m-2'>
+          <ProjectsCarousel />
+        </div>
+      </section>
     </MotionWrapper>
   );
 };

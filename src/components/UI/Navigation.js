@@ -26,6 +26,7 @@ const Navigation = (props) => {
           className={classes['navbar-collapse--custom']}
         >
           <Nav
+            as='nav'
             className='mx-auto'
             activeKey={props.active}
             onSelect={(selectedKey) => props.setActive(selectedKey)}
