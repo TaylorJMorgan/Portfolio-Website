@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { Fragment, useState } from 'react';
 
 import { Route, Routes, useLocation } from 'react-router-dom';
 import Home from '../Home/Home';
@@ -14,12 +14,12 @@ const App = (props) => {
   const [active, setActive] = useState('home');
 
   return (
-    <div>
+    <Fragment>
       <Navigation
         active={active}
         setActive={setActive}
       />
-      <div>
+      <main>
         <AnimatePresence exitBeforeEnter>
           <Routes
             location={location}
@@ -41,10 +41,14 @@ const App = (props) => {
               path='/Contact'
               element={<Contact />}
             />
+            <Route
+              path='/*'
+              element={<Home />}
+            />
           </Routes>
         </AnimatePresence>
-      </div>
-    </div>
+      </main>
+    </Fragment>
   );
 };
 

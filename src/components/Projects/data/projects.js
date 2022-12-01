@@ -10,8 +10,15 @@ const projects = [
     img: 'sittr',
     label: 'Sittr - A mockup Ecommerce site',
     description:
-      'Developed a mockup of an Ecommerce site, with checkout and login system, using HTML, CSS, React, JavaScript, Python, Flask, and SQLAlchemy.',
-    url: 'http://www.sittr.shop',
+      'Developed a mockup of an Ecommerce site, with checkout and login system, using HTML, CSS, React, Redux, JavaScript, and Firebase. Modified from the original release.',
+    url: 'https://www.sittr.shop',
+  },
+  {
+    img: 'sittr-old',
+    label: 'Sittr - CS50x Final Project',
+    description:
+      'The initial and now deprecated release of Sittr - created with HTML, CSS, React, JavaScript, Python, Flask, and SQLAlchemy.',
+    url: 'https://github.com/TaylorJMorgan/cs50-final-project',
   },
 ];
 
