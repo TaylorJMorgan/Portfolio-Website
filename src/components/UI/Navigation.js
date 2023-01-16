@@ -34,6 +34,10 @@ const Navigation = (props) => {
             <Nav.Link
               as={Link}
               to='/'
+              // This method doesn't seem to work
+              // className={(isActive) =>
+              //   classes['nav-item--custom'] + (isActive ? 'active' : '')
+              // }
               className={classes['nav-item--custom']}
               eventKey='home'
             >
