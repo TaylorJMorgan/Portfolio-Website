@@ -13,7 +13,7 @@ const AboutCard = (props) => {
       />
       <Card.Body className='d-flex flex-column'>
         {props.body}
-        <Card.Title className='mt-auto'>{props.title}</Card.Title>
+        <Card.Title className='mt-auto fs-4'>{props.title}</Card.Title>
         <Card.Subtitle className='mb-3'>{props.subtitle}</Card.Subtitle>
         <Card.Text>{props.content}</Card.Text>
       </Card.Body>
