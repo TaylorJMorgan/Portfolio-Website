@@ -24,16 +24,20 @@ const skills = [
     width: '80%',
   },
   {
+    name: 'Node.js',
+    width: '75%',
+  },
+  {
+    name: 'TypeScript',
+    width: '75%',
+  },
+  {
     name: 'Python',
-    width: '80%',
+    width: '70%',
   },
   {
     name: 'MongoDB',
-    width: '65%',
-  },
-  {
-    name: 'Node.js',
-    width: '60%',
+    width: '70%',
   },
 ];
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import classes from './AboutCard.module.css';
+// import classes from './AboutCard.module.css';
 import Card from 'react-bootstrap/Card';
 
 const AboutCard = (props) => {
@@ -11,12 +11,10 @@ const AboutCard = (props) => {
         src={props.imgSrc}
         alt={props.alt}
       />
-      <Card.Body>
+      <Card.Body className='d-flex flex-column'>
         {props.body}
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Subtitle className={`${classes['card-subtitle--custom']} mb-3`}>
-          {props.subtitle}
-        </Card.Subtitle>
+        <Card.Title className='mt-auto'>{props.title}</Card.Title>
+        <Card.Subtitle className='mb-3'>{props.subtitle}</Card.Subtitle>
         <Card.Text>{props.content}</Card.Text>
       </Card.Body>
     </Card>

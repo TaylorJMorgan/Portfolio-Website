@@ -25,7 +25,7 @@ const About = (props) => {
               <AboutCard
                 imgSrc={taylorBird}
                 title="That's Me."
-                content="I'm a Junior Full Stack Developer. I am pivoting careers into Software Development from Prehospital Medical Care."
+                content="I'm a Junior Full Stack Developer, with a focus on front-end development."
               />
             </Col>
             <Col
