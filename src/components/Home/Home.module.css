@@ -2,13 +2,8 @@
   margin-top: 20px;
 }
 
-.highlight--animated {
+.highlight {
   color: #f24c4c;
-  transition: 0.5s;
-}
-
-.highlight--animated:hover {
-  font-size: 3.5rem;
 }
 
 .home-banner {

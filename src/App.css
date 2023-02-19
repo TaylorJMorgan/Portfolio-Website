@@ -10,3 +10,9 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
+
+.underline hr {
+  width: 50px;
+  height: 5px;
+  border-color: #f24c4c;
+}

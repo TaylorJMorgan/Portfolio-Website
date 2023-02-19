@@ -19,9 +19,7 @@ const Home = (props) => {
         <Row>
           <Col>
             Hello, I'm&nbsp;
-            <span className={classes['highlight--animated']}>
-              Taylor Morgan
-            </span>
+            <span className={classes['highlight']}>Taylor Morgan</span>
             ,
             <br />
             a full-stack developer.

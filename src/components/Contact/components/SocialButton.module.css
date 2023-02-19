@@ -7,12 +7,10 @@
   background-color: #f24c4c;
   border-radius: 5px;
   line-height: 80px;
-  transition: width 0.3s, height 0.3s, line-height 0.3s, background-color 0.3s;
+  transition: transform 0.3s, background-color 0.3s;
 }
 
 .social-container:hover {
-  width: 90px;
-  height: 90px;
-  line-height: 90px;
+  transform: scale(1.1);
   background-color: #fd2222;
 }
