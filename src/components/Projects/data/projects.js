@@ -12,12 +12,12 @@ const projects = [
     label: 'YYSecrets',
     subtitle: '3rd place winner, YYC Hacks - July 2022',
     description:
-      'Developed a web app using HTML, CSS, React, JavaScript, Go, MySQL, and a custom API to help tourists discover “hidden gem” businesses, events, and restaurants in downtown Calgary.',
+      'Developed a web app using HTML, CSS, React, JavaScript, Go, MySQL, and a custom API to help tourists discover “hidden gem” businesses, events, and restaurants in downtown Calgary. Disclaimer: Due to issues after release and the project being archived, content will load infinitely after making event choices.',
     url: 'https://attractech.netlify.app/',
   },
   {
     img: 'sittr-old',
-    label: 'Sittr',
+    label: 'Sittr (Repo)',
     subtitle: 'CS50X Final Project',
     description:
       'The initial and now deprecated release of Sittr - created with HTML, CSS, React, JavaScript, Python, Flask, and SQLAlchemy.',
