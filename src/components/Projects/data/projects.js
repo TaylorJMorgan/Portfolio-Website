@@ -1,5 +1,12 @@
 const projects = [
   {
+    img: 'servable',
+    label: 'Servable (Working Title)',
+    subtitle: 'Food Service Website',
+    description:
+      'Developing a food service website where you can save and track the costs of ingredients and recipes used in a commercial setting like a restaurant. Work in progress!',
+  },
+  {
     img: 'sittr',
     label: 'Sittr',
     subtitle: 'Mockup E-commerce site',

@@ -24,16 +24,18 @@ const ProjectBody = (props) => {
               <h2>{project.label}</h2>
               <hr className='underline' />
               <p>{project.description}</p>
-              <p>
-                Check out{' '}
-                <a
-                  href={project.url}
-                  rel='noreferrer'
-                  target='_blank'
-                >
-                  {project.label}
-                </a>
-              </p>
+              {project.url && (
+                <p>
+                  Check out{' '}
+                  <a
+                    href={project.url}
+                    rel='noreferrer'
+                    target='_blank'
+                  >
+                    {project.label}
+                  </a>
+                </p>
+              )}
             </Col>
           </Row>
         );
