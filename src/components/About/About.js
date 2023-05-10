@@ -7,6 +7,7 @@ import classes from './About.module.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import ResumeCard from './components/ResumeCard';
 
 const About = (props) => {
   return (
@@ -45,6 +46,11 @@ const About = (props) => {
                 title='Languages and Technologies'
                 content='I am always trying to perfect the skills I have and try new and interesting technologies.'
               />
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12}>
+              <ResumeCard />
             </Col>
           </Row>
         </Container>
