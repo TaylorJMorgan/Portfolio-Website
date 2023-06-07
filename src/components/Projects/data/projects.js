@@ -1,7 +1,7 @@
 const projects = [
   {
-    img: 'servable',
-    label: 'Servable (Working Title)',
+    img: 'milk-krate',
+    label: 'Milk Krate',
     subtitle: 'Food Service Website',
     description:
       'Developing a food service website where you can save and track the costs of ingredients and recipes used in a commercial setting like a restaurant. Work in progress!',
