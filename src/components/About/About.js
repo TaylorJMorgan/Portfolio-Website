@@ -25,8 +25,8 @@ const About = (props) => {
             >
               <AboutCard
                 imgSrc={taylorBird}
-                title="That's Me."
-                content="I'm a Junior Full Stack Developer, with a focus on front-end development and delivering responsive and attractive experiences."
+                title="Taylor Morgan"
+                content="Highly skilled and motivated full-stack developer with expertise in a wide range of technologies. Successfully developed dynamic and innovative projects utilizing a full-stack approach, working solo or leading front-end development efforts. Completed computer science courses from Harvard University and Udemy. A former Primary Care Paramedic with exceptional leadership, communication, and organizational skills."
               />
             </Col>
             <Col
@@ -44,7 +44,7 @@ const About = (props) => {
                   );
                 })}
                 title='Languages and Technologies'
-                content='I am always trying to perfect the skills I have and try new and interesting technologies.'
+                content='I put forward a continuous effort to perfect existing skills and try new and interesting technologies.'
               />
             </Col>
           </Row>

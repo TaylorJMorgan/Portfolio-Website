@@ -1,34 +1,34 @@
 const skills = [
   {
     name: 'HTML',
-    width: '90%',
+    width: '95%',
   },
   {
     name: 'CSS',
-    width: '90%',
+    width: '95%',
   },
   {
     name: 'JavaScript',
-    width: '85%',
+    width: '90%',
   },
   {
     name: 'React',
-    width: '85%',
+    width: '90%',
   },
   {
-    name: 'C',
-    width: '80%',
+    name: 'Node.js',
+    width: '85%',
   },
   {
     name: 'SQL',
     width: '80%',
   },
   {
-    name: 'Node.js',
+    name: 'TypeScript',
     width: '75%',
   },
   {
-    name: 'TypeScript',
+    name: 'C',
     width: '75%',
   },
   {
@@ -38,6 +38,14 @@ const skills = [
   {
     name: 'MongoDB',
     width: '70%',
+  },
+  {
+    name: 'Ruby',
+    width: '60%',
+  },
+  {
+    name: 'Rails',
+    width: '55%',
   },
 ];
 
